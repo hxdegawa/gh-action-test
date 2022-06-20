@@ -22,3 +22,4 @@ jobs:
           FOLDER: ../
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
           MESSAGE: "Sync: ({sha}) {msg}" # The commit message
+          CLEAR_GLOBS_FILE: ".clear-target-files"
